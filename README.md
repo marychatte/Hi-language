@@ -182,8 +182,8 @@ hi> length("hehe" * 5) / 3
 - [0, "x"] * 3 evaluates to [0, "x", 0, "x", 0, "x"] (tip: use stimes)
 
 *When a list is used as a function, perform indexing/slicing:*
-- ["hello", true, "world"](1) evaluates to true
-- ["hello", true, "world"](1,3) evaluates to [true, "world"]
+- \["hello", true, "world "](1) evaluates to true
+- \["hello", true, "world"](1,3) evaluates to [true, "world"]
 
 The following sessions are possible:
 ```
@@ -214,8 +214,8 @@ hi> reverse(range(0.5, 70/8))
 - for all A, deserialise(serialise(A)) ≡ A holds
 - [# 00 ff #] + [# 01 e3 #] evaluates to [# 00 ff 01 e3 #]
 - [# 00 ff #] * 3 evaluates to [# 00 ff 00 ff 00 ff #] (tip: use stimes)
-- [# 00 ff 01 e3 #](1) evaluates to 255
-- [# 00 ff 01 e3 #](1,3) evaluates to [# ff 01 #]
+- \[# 00 ff 01 e3 #](1) evaluates to 255
+- \[# 00 ff 01 e3 #](1,3) evaluates to [# ff 01 #]
 
 The following sessions are possible:
 ```
